@@ -1,0 +1,12 @@
+name: "JIRA Title"
+description: "GitHub Action for checking that pull request title has a JIRA ID prefixed"
+branding:
+  icon: "tag"
+  color: "orange"
+runs:
+  using: "composite"
+  steps:
+    - id: run
+      run: $GITHUB_ACTION_PATH/entrypoint.sh ${{ github.event.pull_request.title }}
+      if: ${{ github.event_name == 'pull_request' }}
+      shell: bash
