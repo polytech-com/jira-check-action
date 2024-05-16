@@ -1,3 +1,3 @@
 # jira-check-action
 
-GitHub Action for checking that pull request title has a JIRA ID prefixed
+GitHub Action for checking that the PR title has a JIRA issue prefixed
