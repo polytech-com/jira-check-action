@@ -1,7 +1,7 @@
-name: "JIRA Title"
+name: "JIRA Check"
 description: "GitHub Action for checking that pull request title has a JIRA ID prefixed"
 branding:
-  icon: "tag"
+  icon: "check-square"
   color: "orange"
 runs:
   using: "composite"
