@@ -1,5 +1,5 @@
 name: "JIRA Check Action"
-description: "Simple GitHub Action for checking that the PR title has a JIRA issue prefixed"
+description: "Simple GitHub Action for checking that the pull request title has a JIRA issue prefixed"
 branding:
   icon: "check-square"
   color: "orange"
